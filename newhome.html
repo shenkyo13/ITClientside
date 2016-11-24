@@ -23,9 +23,9 @@
 								
 								
                                 <!-- navigation -->
-                                <div>
+                                <div style="position:relative ; z-index: 1">
 
-									<ul class="w3-navbar w3-padding-8">
+									<ul class="w3-navbar w3-padding-8 ">
 									
 											<li>  
 											   <div >
@@ -51,97 +51,130 @@
 
                                 </div>
 
+
 								
 								
 								<!-- middle part -->
-								<div class="w3-container w3-display-middle">
-								
-								  <!-- middle (header)part 
-								    <div class="w3-padding-4">
-											<header class="w3-white">
-											<p class="w3-center"> <b> Welcome to Tehran </b> </p>
-											</header>
-                                    </div> -->
-								
-								
-									<!-- middle (image)part -->
-									<div style="height:350px">
-									 <img src="5656.JPG"  alt="art&culture" style="width=100%">
-									</div>
+								<div class="w3-container ">
 								
 
-								<!-- middle (paraghraph)part -->
-								
+																<!-- slideshow in middle -->
+                                 <div class="w3-content  w3-padding-128 w3-display-topmiddle">
+										<div class="w3-content w3-section w3-padding-xxlarge" style="width:1400px ; height:350px">
+										  <img class="mySlides" src="5656.JPG" style="width:100% ;  height:100%">
+										  <img class="mySlides" src="96.jpg" style="width:100% ; height:100%">
+										  <img class="mySlides" src="90.jpg" style="width:100% ; height:100%">
+										</div>
 
-								</div>
-								
-								<div class=" w3-display-bottommiddle w3-padding-128">
-								<div class="w3-padding-128 ">
-								<div class="w3-display-bottommiddle  w3-margin-left" style="width:921px ; height:200px ">
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+                             <div class="w3-display-middle w3-center w3-display-bottommiddle"  style="width=800px">
+								<div class="w3-row w3-display-middle w3-section w3-display-bottommiddle  "> 
+										 
+										 
+												<!-- first card -->
+												<div class="w3-col s4 w3-padding-xxlarge w3-margin" style="width:18%">
+												 
+													<img src="2.jpg" class=" w3-card-4 " width="130px" height="200px">
+													<footer class="w3-blue" style="width:130px">
+													  <h5 class=" w3-card-8 ">Footer</h5>
+													</footer>
+
+												</div>								
+
+												
+												
+												<!-- second card -->
+												<div class=" w3-col w3-padding-xxlarge  w3-margin" style="width:18%">
+												
+													<img src="3.jpg" class=" w3-card-4 " width="130px" height="200px">
+													<footer class="w3-blue" style="width:130px">
+													  <h5 class=" w3-card-8 ">Footer</h5>
+													</footer>
+
+												</div>
+												
+												
+												
+												<!-- third card -->
+												<div class=" w3-col w3-padding-xxlarge w3-margin " style="width:18%">
+
+													<img src="5.jpg" class=" w3-card-4 " width="130px" height="200px">
+													<footer class="w3-blue" style="width:130px">
+													  <h5 class=" w3-card-8 ">Footer</h5>
+													</footer>
+
+												</div>
+												
+												
+												
+												
+												<!-- fourth card -->
+												<div class=" w3-col w3-padding-xxlarge  w3-margin  " style="width:18%">
+
+													<img src="1.jpg" class=" w3-card-4 " width="130px" height="200px">
+													<footer class="w3-blue" style="width:130px">
+													  <h5 class=" w3-card-8 ">Footer</h5>
+													</footer>
+
+												</div>
 										
-										   <div class="w3-col">
-											 <div class="w3-row   s4 w3-white" style="width:64% ; height:50% ;font-family:times new roman "> <p>
-											 History of the Persian Language Persian is spoken today primarily in Iran,
-											 Afghanistan and Tajikistan, but was historically a more widely understood language
-											 in an area ranging from the Middle East to India, significant populations of speakers
-											 in other Persian Gulf countries (Bahrain, Iraq, Oman, Republic of Yemen
-											 and the United Arab Emirates), as well as large communities around the World.</p></div>
-											 <div class="w3-row  s4 w3-white  w3-rest" style="height:50% ; font-family:times new roman" > <p> Nowruz is the name of the Persian New Year.
-                                             Nowruz marks the first day of spring as and the beginning of the year in the Persian calendar.
-											 Nowruz is celebrated on March 21 or the previous/following day depending on where it is observed.
-											 The moment the sun crosses the celestial equator and equalizes night and day is calculated
-											 exactly every year and families gather together to observe the rituals.
-                                             Nowruz is celebrated by people from diverse ethnic communities and religious backgrounds for thousands of years.
-											 It is a secular holiday that is enjoyed by people of several different faiths.
-                                             It originated in Persia in one of the capitals of the Achaemenid empire in Persis (Fars) in Iran
-											 and is also celebrated by the cultural region that came under Iranian influence
-											 or had migrations by Persians including Azerbaijan, the North Caucasus, Kurdish 
-											 inhabited regions of eastern Turkey and Northern Iraq, Afghanistan, Tajikistan, Turkmenistan,
-											 Uzbekistan, Kyrgyzstan, Kazakhstan and other scattered populations in Central Asia.</p> </div>
-										  </div> 
-										  <div class="w3-row  s4 w3-white  w3-rest" style="height:50% ; font-family:times new roman" > <p> Nowruz is the name of the Persian New Year.
-                                             Nowruz marks the first day of spring as and the beginning of the year in the Persian calendar.
-											 Nowruz is celebrated on March 21 or the previous/following day depending on where it is observed.
-											 The moment the sun crosses the celestial equator and equalizes night and day is calculated
-											 exactly every year and families gather together to observe the rituals.
-                                             Nowruz is celebrated by people from diverse ethnic communities and religious backgrounds for thousands of years.
-											 It is a secular holiday that is enjoyed by people of several different faiths.
-                                             It originated in Persia in one of the capitals of the Achaemenid empire in Persis (Fars) in Iran
-											 and is also celebrated by the cultural region that came under Iranian influence
-											 or had migrations by Persians including Azerbaijan, the North Caucasus, Kurdish 
-											 inhabited regions of eastern Turkey and Northern Iraq, Afghanistan, Tajikistan, Turkmenistan,
-											 Uzbekistan, Kyrgyzstan, Kazakhstan and other scattered populations in Central Asia.</p> </div>
-										  </div>
-										   
-								
+								</div>	
 								</div>
-								</div>
-								</div>
-	
-								</div>
-								
-                                </div>
-								 
-								 
-								</div> <!-- end of first row -- >
 
-								
-								<!-- second row part -->
-								<!-- footer part -->
-								
-								<div class="w3-row w3-margin-left">
-								
-								<div class="w3-margin-left w3-padding-bottom">
-									<div class="w3-white  w3-container w3-margin-left " style="width:1250px ">
-										<footer>
-										<p class="w3-center" style="font-family:times new roman"> Copyright</p>
-										</footer>
-									</div>
-								</div>
-                              
-							  </div>
-							  
-							</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 								
 </body>
 </html>
